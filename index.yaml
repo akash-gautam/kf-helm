@@ -9,6 +9,6 @@ entries:
     name: kubeflow
     type: application
     urls:
-    - kubeflow-0.1.0.tgz
+    - gautam-akash.github.io/kf-helm/kubeflow-0.1.0.tgz
     version: 0.1.0
 generated: "2024-04-03T20:33:28.638979+05:30"
