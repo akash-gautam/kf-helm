@@ -3,12 +3,12 @@ entries:
   kubeflow:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-04-03T20:50:15.977838+05:30"
+    created: "2024-04-04T23:25:46.823957+05:30"
     description: A Helm chart for Kubernetes
     digest: 2045f9a9e6702b356132749fc03dc14c2832b769ca4a9e5ee300dd4622e543c9
     name: kubeflow
     type: application
     urls:
-    - akash-gautam.github.io/kf-helm/kubeflow-0.1.0.tgz
+    - kubeflow-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-03T20:50:15.977184+05:30"
+generated: "2024-04-04T23:25:46.823368+05:30"
