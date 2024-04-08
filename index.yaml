@@ -3,12 +3,23 @@ entries:
   kubeflow:
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2024-04-05T11:18:03.674402+05:30"
+    created: "2024-04-08T18:37:48.096097+05:30"
     description: Helm chart to install official kubeflow manifests as it is.
-    digest: 73a36f5ec1e694468637f36f11aa40e3ec5414f867f369925b3d17fa4c6c8756
+    digest: 787e9f1dd06d46c3b88e89408bf4664f7f1afd34f447caf5f61b57f9440b4bac
     name: kubeflow
     type: application
     urls:
-    - https://akash-gautam.github.io/kf-helm/kubeflow-1.0.0.tgz
+    - kubeflow-1.0.0.tgz
     version: 1.0.0
-generated: "2024-04-05T11:18:03.6527+05:30"
+  kubeflow-crds:
+  - apiVersion: v2
+    appVersion: 1.18.0
+    created: "2024-04-08T18:37:48.108737+05:30"
+    description: Helm chart to install official kubeflow manifests CRDs
+    digest: f44dabe5d812a73e6a4950b83246cc327661b1df15feb798c5ebbda7ffce3e3c
+    name: kubeflow-crds
+    type: application
+    urls:
+    - kubeflow-crds-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-04-08T18:37:48.079247+05:30"
