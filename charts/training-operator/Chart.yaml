@@ -1,5 +1,5 @@
 apiVersion: v2
-name: kubeflow-crds
+name: training-operator
 description: Helm chart to install official kubeflow manifests CRDs
 
 # A chart can be either an 'application' or a 'library' chart.

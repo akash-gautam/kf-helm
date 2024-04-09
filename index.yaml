@@ -3,23 +3,28 @@ entries:
   kubeflow:
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2024-04-08T18:37:48.096097+05:30"
+    created: "2024-04-09T17:53:44.843092+05:30"
+    dependencies:
+    - alias: training-operator
+      name: training-operator
+      repository: https://akash-gautam.github.io/kf-helm/
+      version: 1.0.0
     description: Helm chart to install official kubeflow manifests as it is.
-    digest: 787e9f1dd06d46c3b88e89408bf4664f7f1afd34f447caf5f61b57f9440b4bac
+    digest: 020106cb84f41b080dabd7f361b63b89aa77947ad671c494177c271c3afa1fdb
     name: kubeflow
     type: application
     urls:
-    - kubeflow-1.0.0.tgz
+    - https://akash-gautam.github.io/kf-helm/kubeflow-1.0.0.tgz
     version: 1.0.0
-  kubeflow-crds:
+  training-operator:
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2024-04-08T18:37:48.108737+05:30"
+    created: "2024-04-09T17:53:44.8537+05:30"
     description: Helm chart to install official kubeflow manifests CRDs
-    digest: f44dabe5d812a73e6a4950b83246cc327661b1df15feb798c5ebbda7ffce3e3c
-    name: kubeflow-crds
+    digest: 15529015eb0daa07b26ab0d0f8583b69ea6bd0b35bd451c80aa373a831efb1f0
+    name: training-operator
     type: application
     urls:
-    - kubeflow-crds-1.0.0.tgz
+    - https://akash-gautam.github.io/kf-helm/training-operator-1.0.0.tgz
     version: 1.0.0
-generated: "2024-04-08T18:37:48.079247+05:30"
+generated: "2024-04-09T17:53:44.814136+05:30"
